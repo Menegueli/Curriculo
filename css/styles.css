@@ -37,6 +37,22 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+.carousel {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+img {
+ 
+  width: auto;
+  margin: 0 auto; /* it centers any block level element */
+}
+
 *,
 *::before,
 *::after {

@@ -7,6 +7,7 @@
 // Scripts
 // 
 
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
@@ -32,3 +33,15 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+$('.carousel').slick({
+    
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    centerMode: true
+  
+  });
+

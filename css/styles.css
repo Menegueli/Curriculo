@@ -48,7 +48,7 @@
 }
 
 img {
- 
+  max-width: 80vw;
   width: auto;
   margin: 0 auto; /* it centers any block level element */
 }
